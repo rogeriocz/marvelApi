@@ -1,0 +1,4 @@
+//PRIVATEKEY = '965a3dfe23d5c584f7c6bb5653df75088a536c0a'
+//PUBLICKEY = '29d5c35f6659e38f56be597a5a502ddf'
+
+const apikey = "";
