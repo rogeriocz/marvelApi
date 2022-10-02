@@ -13,7 +13,7 @@ fetch(url)
   .catch((err) => console.log("Se ha producido un error: ", err));
 
 const printData = (personajes) => {
-  //console.log(personajes);
+  console.log(personajes);
   let str = '<div class="row">';
   let i = 0;
   let name = [];
