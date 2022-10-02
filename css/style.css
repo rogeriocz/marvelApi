@@ -1,12 +1,14 @@
 img.img-thumbnail {
   width: 100%;
   height: 100%;
+  border-radius: 2em;
   display: block;
 }
 
 .hero-img {
   position: relative;
   overflow: hidden;
+  border-radius: 2em;
 }
 
 .hero-img:hover .description {
@@ -24,4 +26,11 @@ img.img-thumbnail {
   top: -100%;
   margin: 0;
   padding: 1em;
+}
+
+.card {
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }

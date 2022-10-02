@@ -29,7 +29,7 @@ const getCharacter = (tipo) => {
 const drawHero = (e) => {
   const image = `${e.thumbnail.path}/portrait_uncanny.${e.thumbnail.extension}`;
   const hero = `
-    <div class="col-md-4">
+    <div class="card m-3" style="width: 18rem;">
     <h5>${e.name}</h5>
     <div class="hero-img">
         <img src="${image}" class="img-thumbnail">
