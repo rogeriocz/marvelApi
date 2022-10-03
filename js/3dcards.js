@@ -1,4 +1,4 @@
-console.log("Buscador Marvel");
+//console.log("Buscador Marvel");
 const apikey = "29d5c35f6659e38f56be597a5a502ddf";
 const ts = "01/10/2022, 00:11:08";
 const hash = "8d800c99e7e9b0f153ed642706300c28";
@@ -11,7 +11,7 @@ const characters = "characters";
 const comics = "comics";
 let selecTipoBusqueda = document.querySelector("select");
 let selectTipo = document.getElementById("selectTipo");
-console.log(selecTipoBusqueda.value);
+//console.log(selecTipoBusqueda.value);
 
 const getCharacter = (tipo) => {
   const url = `${urlBase}${tipo}?format=digest&apikey=${apikey}&ts=${ts}&hash=${hash}`;
@@ -19,7 +19,7 @@ const getCharacter = (tipo) => {
     .then((response) => response.json())
     .then((response) => {
       //console.log(response);
-      console.log(response);
+      //console.log(response);
       response.data.results.forEach((e) => {
         drawHero(e);
       });
