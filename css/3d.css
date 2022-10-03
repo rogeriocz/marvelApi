@@ -33,7 +33,7 @@
   height: 45px;
   line-height: 45px;
   color: #fff;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(192, 15, 15, 0.4);
   text-align: center;
 }
 
@@ -59,7 +59,7 @@
   color: #f3f3f3;
 }
 
-.comic .back h3 {
+.comic .back h5 {
   font-size: 30px;
   margin-top: 20px;
   letter-spacing: 2px;

@@ -33,10 +33,10 @@ const drawHero = (e) => {
     <div class="comic">
       <div class="face front">
         <img src="${image}" alt="" />
-        <h3>back</h3>
+        <h4>${e.title}</h4>
       </div>
       <div class="face back">
-        <h3>${e.name}</h3>
+        <h5>${e.title}</h5>
         <p>
           ${e.description}
         </p>
