@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/devf.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Devf Comics</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <h2 class="logotipo">Devf Comics</h2>
+        <nav>
+          <a href="#" class="activo">Inicio</a>
+          <a href="#">comics</a>
+          <a href="#">Characters</a>
+          <a href="#">Comics Recientes</a>
+          <a href="#">Mi lista</a>
+          <select
+            class="form-select me-2 selecTipoBusqueda"
+            aria-label="Default select example"
+            id="selectTipo"
+          >
+            <option value="characters">characters</option>
+            <option value="comics">comics</option>
+          </select>
+          <input
+            id="buscar"
+            class="form-control me-2"
+            type="search"
+            placeholder="Buscar"
+            aria-label="Buscar"
+          />
+          <button class="btn btn-outline-danger" id="btnSearch">Search</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="pelicula-principal">
+        <div class="contenedor">
+          <h3 class="titulo">Iron Heart</h3>
+          <p class="descripcion">
+            Riri Williams, no es la primera mujer en llevar una armadura de Iron
+            Man, pero si es la primera mujer afroamericana en usar la tecnología
+            del Hombre de Hierro, y, sobre todo, es la primera que ha diseñado
+            su propia armadura utilizando ingeniería inversa. Ironheart debutó
+            en el Invincible Iron Man # 7 de Brian Michael Bendis y Mike
+            Deodato.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=hpT-11DMqVs"
+            role="button"
+            class="boton"
+          >
+            <i class="fas fa-play"></i>Reproducir
+          </a>
+
+          <a
+            href="https://www.youtube.com/watch?v=hpT-11DMqVs"
+            role="button"
+            class="boton"
+          >
+            <i class="fas fa-info-circle"></i>Más información
+          </a>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="cards-comics" id="content"></div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/2c36e9b7b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/3dcards.js"></script>
+  </body>
+</html>
