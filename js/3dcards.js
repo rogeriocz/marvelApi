@@ -14,12 +14,12 @@ let selectTipo = document.getElementById("selectTipo");
 console.log(selecTipoBusqueda.value);
 
 const getCharacter = (tipo) => {
-  const url = `${urlBase}${tipo}?apikey=${apikey}&ts=${ts}&hash=${hash}`;
+  const url = `${urlBase}${tipo}?format=digest&apikey=${apikey}&ts=${ts}&hash=${hash}`;
   fetch(url)
     .then((response) => response.json())
     .then((response) => {
       //console.log(response);
-
+      console.log(response);
       response.data.results.forEach((e) => {
         drawHero(e);
       });
@@ -33,7 +33,7 @@ const drawHero = (e) => {
     <div class="comic">
       <div class="face front">
         <img src="${image}" alt="" />
-        <h3>${e.name}</h3>
+        <h3>back</h3>
       </div>
       <div class="face back">
         <h3>${e.name}</h3>
